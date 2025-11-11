@@ -1,0 +1,29 @@
+{
+  "name": "leetcode-revision-cards",
+  "version": "1.0.0",
+  "description": "A simple LeetCode concept revision flashcard game with OpenAI API integration, CI/CD via GitHub Actions, and deployment on Vercel.",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "test": "jest --runInBand",
+    "build": "echo \"Frontend build successful\""
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Brunda Sreedhar",
+  "license": "MIT"
+}

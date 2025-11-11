@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>LeetCode Concept Revision</h2>
+    <button id="next">Next Concept</button>
+    <p id="output"></p>
+
+    <script>
+      document.getElementById("next").addEventListener("click", async () => {
+        const res = await fetch("/api/concept");
+        const data = await res.json();
+        document.getElementById("output").innerText = `${data.topic}: ${data.explanation}`;
+      });
+    </script>
+  </body>
+</html>
