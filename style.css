@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d1117;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 span {
+  color: #00c2ff;
+}
+
+p {
+  margin: 10px 0 20px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.buttons a {
+  margin: 0 10px;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #00c2ff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  background: #00c2ff;
+  color: #0d1117;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
