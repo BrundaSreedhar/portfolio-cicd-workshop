@@ -7,3 +7,4 @@ Copy these files into the folder
 Add relevant images you want to display on the site to the static folder eg., your picture
 
 Hyperlink it in your index.html, add styles based on your choice. 
+Use codespaces or your own creativity to upload content on your resume to construct the rest of your portfolio site
